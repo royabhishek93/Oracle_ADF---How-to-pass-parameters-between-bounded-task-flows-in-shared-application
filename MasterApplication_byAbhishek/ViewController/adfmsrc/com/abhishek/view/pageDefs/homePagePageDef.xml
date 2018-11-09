@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<pageDefinition xmlns="http://xmlns.oracle.com/adfm/uimodel" version="12.2.1.9.14" id="homePagePageDef"
+                Package="com.abhishek.view.pageDefs">
+  <parameters/>
+  <executables>
+    <variableIterator id="variables"/>
+    <taskFlow id="dynamicRegion1" taskFlowId="${viewScope.DynamicRegionBean.dynamicTaskFlowId}" activation="deferred"
+              xmlns="http://xmlns.oracle.com/adf/controller/binding"
+              parametersMap="#{viewScope.DynamicRegionBean.parameterMap}"/>
+  </executables>
+  <bindings/>
+</pageDefinition>

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ui:composition xmlns:ui="http://java.sun.com/jsf/facelets" xmlns:af="http://xmlns.oracle.com/adf/faces/rich">
+  <af:panelGroupLayout id="pgl1" layout="vertical">
+    <af:outputText value="Application-2" id="ot1" inlineStyle="font-weight: bolder; color: Highlight;"/>
+    <af:outputText value="#{pageFlowScope.Parameter1}" id="ot2" inlineStyle="font-weight: bolder; color: Red;" />
+  </af:panelGroupLayout>
+</ui:composition>
